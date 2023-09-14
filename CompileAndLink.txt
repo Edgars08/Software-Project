@@ -1,0 +1,12 @@
+
+g++ -c AssetLibrary.cpp StateManager.cpp InputManager.cpp Game.cpp SplashState.cpp MenuState.cpp GameState.cpp Space.cpp SpaceShip.cpp Lasers.cpp Asteroid.cpp Lander.cpp GameOverState.cpp Score.cpp Instructions.cpp main.cpp -I C:\SFML-2.6.0\include -I C:\Users\matlo\Desktop\Code23\Project-Refactor\Header
+
+g++ AssetLibrary.o StateManager.o Game.o InputManager.o SplashState.o MenuState.o GameState.o Space.o SpaceShip.o Asteroid.o Lasers.o Lander.o GameOverState.o Score.o Instructions.o main.o  -o game -L C:\SFML-2.6.0\lib -lsfml-graphics -lsfml-window -lsfml-system
+
+//////////////////////////////////////////////////////////////////////////////////
+
+g++ -c AssetLibrary.cpp StateManager.cpp InputManager.cpp Game.cpp SplashState.cpp MenuState.cpp GameState.cpp Space.cpp SpaceShip.cpp Lasers.cpp Asteroid.cpp Lander.cpp GameOverState.cpp tests.cpp -I C:\SFML-2.6.0\include -I C:\doctest-master\doctest -I C:\Users\matlo\Desktop\Code23\Project-Refactor\Header 
+
+g++ AssetLibrary.o StateManager.o Game.o InputManager.o SplashState.o MenuState.o GameState.o Space.o SpaceShip.o Asteroid.o Lasers.o Lander.o GameOverState.o tests.o  -o app -L C:\SFML-2.6.0\lib -lsfml-graphics -lsfml-window -lsfml-system
+
+
